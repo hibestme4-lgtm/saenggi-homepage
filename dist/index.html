@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183d2a">
+  <meta name="description" content="어르신의 익숙한 일상에 생기를 더하는 생기재가복지센터 안내 홈페이지입니다.">
+  <title>생기재가복지센터</title>
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="생기재가복지센터 홈">
+        <img src="assets/logo-mark.png" alt="생기">
+        <span>재가복지센터</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        <a href="#about">센터소개</a>
+        <a href="#services">서비스안내</a>
+        <a href="#process">이용안내</a>
+        <a href="#care">돌봄원칙</a>
+        <a href="#guide">복지정보</a>
+      </nav>
+
+      <a class="header-cta" href="#contact">상담안내</a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="모바일 메뉴">
+        <a href="#about"><small>01</small>센터소개</a>
+        <a href="#services"><small>02</small>서비스안내</a>
+        <a href="#process"><small>03</small>이용안내</a>
+        <a href="#care"><small>04</small>돌봄원칙</a>
+        <a href="#guide"><small>05</small>복지정보</a>
+        <a href="#contact"><small>06</small>상담안내</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="가정에서 어르신과 함께 식물을 돌보는 돌봄 종사자"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow reveal">LIFE WITH VITALITY</p>
+        <h1 id="hero-title" class="reveal">익숙한 집에서,<br><em>생기 있는 하루</em></h1>
+        <p class="hero-copy reveal">어르신의 생활 방식과 마음을 먼저 살피고<br>가족에게는 안심을 전하는 재가 돌봄을 준비합니다.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#services">돌봄 서비스 보기</a>
+          <a class="button button-ghost" href="#process">이용 절차 확인</a>
+        </div>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">
+        <span>01</span><i></i><span>생기 있는 돌봄</span>
+      </div>
+
+      <nav class="quick-nav" aria-label="빠른 메뉴">
+        <a href="#services"><span>01</span><strong>방문요양</strong><small>일상 가까이에서 돕습니다</small></a>
+        <a href="#process"><span>02</span><strong>등급·이용 안내</strong><small>처음부터 차근차근</small></a>
+        <a href="#care"><span>03</span><strong>맞춤 돌봄</strong><small>상태와 생활에 맞게</small></a>
+        <a href="#contact"><span>04</span><strong>상담 안내</strong><small>궁금한 점을 편안하게</small></a>
+      </nav>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT SAENGGI</p>
+          <h2>돌봄은 생활을<br><em>이해하는 일</em>에서<br>시작됩니다.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">생기재가복지센터는 어르신이 가장 편안한 공간에서 자신의 일상을 이어가실 수 있도록 돕습니다.</p>
+          <p>정해진 도움을 일방적으로 제공하기보다, 어르신과 보호자의 이야기를 충분히 듣고 필요한 돌봄의 우선순위를 함께 정합니다.</p>
+          <div class="about-values" aria-label="센터 핵심 가치">
+            <span>존중</span><span>세심함</span><span>신뢰</span>
+          </div>
+        </div>
+        <div class="about-mark reveal" aria-hidden="true">
+          <div class="mark-orbit"><span>CARE</span><span>HOME</span><span>LIFE</span></div>
+          <img src="assets/logo-full.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">OUR CARE</p>
+            <h2 id="services-title">생기의 돌봄 서비스</h2>
+          </div>
+          <p>몸의 불편함만이 아니라 생활의 흐름과<br>정서적인 편안함까지 함께 살핍니다.</p>
+        </div>
+
+        <div class="service-tabs reveal" role="tablist" aria-label="돌봄 서비스">
+          <button type="button" role="tab" aria-selected="true" aria-controls="service-panel-1" id="service-tab-1" data-tab="1">
+            <span>01</span>신체활동 지원
+          </button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-2" id="service-tab-2" data-tab="2" tabindex="-1">
+            <span>02</span>일상생활 지원
+          </button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-3" id="service-tab-3" data-tab="3" tabindex="-1">
+            <span>03</span>인지·정서 지원
+          </button>
+        </div>
+
+        <div class="service-stage">
+          <article class="service-panel is-active" role="tabpanel" id="service-panel-1" aria-labelledby="service-tab-1" data-panel="1">
+            <div class="service-visual visual-body">
+              <svg viewBox="0 0 240 240" aria-hidden="true"><path d="M77 105c0-27 19-49 43-49s43 22 43 49v18c0 38-18 62-43 62s-43-24-43-62z"/><path d="M58 198c9-28 31-43 62-43s53 15 62 43"/><circle cx="120" cy="38" r="17"/></svg>
+              <span>BODY CARE</span>
+            </div>
+            <div class="service-content">
+              <p class="service-number">01</p>
+              <h3>편안하고 안전한<br>신체활동을 돕습니다.</h3>
+              <p>세면, 옷 갈아입기, 식사, 이동과 같은 일상 속 신체활동을 어르신의 속도에 맞춰 지원합니다.</p>
+              <ul><li>개인위생과 식사 도움</li><li>안전한 이동과 체위 변경</li><li>상태에 맞춘 생활 동작 지원</li></ul>
+            </div>
+          </article>
+
+          <article class="service-panel" role="tabpanel" id="service-panel-2" aria-labelledby="service-tab-2" data-panel="2" hidden>
+            <div class="service-visual visual-home">
+              <svg viewBox="0 0 240 240" aria-hidden="true"><path d="M45 112 120 48l75 64v86H45z"/><path d="M94 198v-55h52v55"/><path d="M74 104v-28h25v7"/></svg>
+              <span>DAILY LIFE</span>
+            </div>
+            <div class="service-content">
+              <p class="service-number">02</p>
+              <h3>익숙한 생활 리듬을<br>이어갈 수 있게 돕습니다.</h3>
+              <p>식사 준비, 주변 정돈, 외출 동행 등 어르신의 생활에 꼭 필요한 일을 함께하며 자립적인 일상을 응원합니다.</p>
+              <ul><li>식사 준비와 생활공간 정돈</li><li>장보기·병원 방문 동행</li><li>개인 활동과 일상 유지 지원</li></ul>
+            </div>
+          </article>
+
+          <article class="service-panel" role="tabpanel" id="service-panel-3" aria-labelledby="service-tab-3" data-panel="3" hidden>
+            <div class="service-visual visual-heart">
+              <svg viewBox="0 0 240 240" aria-hidden="true"><path d="M120 191S48 150 48 93c0-27 20-45 45-45 14 0 24 6 27 17 4-11 14-17 28-17 25 0 44 18 44 45 0 57-72 98-72 98z"/><path d="M84 112h24l12-23 15 43 10-20h20"/></svg>
+              <span>MIND CARE</span>
+            </div>
+            <div class="service-content">
+              <p class="service-number">03</p>
+              <h3>대화와 활동으로<br>마음의 생기를 더합니다.</h3>
+              <p>말벗, 회상 활동, 가벼운 인지활동을 통해 외로움을 덜고 편안한 정서와 생활 활력을 유지하도록 돕습니다.</p>
+              <ul><li>말벗과 정서적 지지</li><li>회상·인지 자극 활동</li><li>보호자와 돌봄 내용 공유</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">HOW TO START</p>
+            <h2 id="process-title">처음이라도 어렵지 않게</h2>
+          </div>
+          <p>현재 상황을 알려주시면 필요한 절차부터<br>서비스 시작까지 순서대로 안내합니다.</p>
+        </div>
+        <ol class="process-list">
+          <li class="reveal"><span>01</span><div class="process-icon"><i></i></div><h3>상담 신청</h3><p>어르신의 상황과 필요한 도움을 편안하게 이야기합니다.</p></li>
+          <li class="reveal"><span>02</span><div class="process-icon"><i></i></div><h3>등급·상황 확인</h3><p>장기요양등급과 건강·생활 환경을 함께 확인합니다.</p></li>
+          <li class="reveal"><span>03</span><div class="process-icon"><i></i></div><h3>돌봄 계획</h3><p>서비스 내용과 시간, 우선순위를 구체적으로 정합니다.</p></li>
+          <li class="reveal"><span>04</span><div class="process-icon"><i></i></div><h3>서비스 시작</h3><p>담당 요양보호사와 일상을 맞추며 돌봄을 시작합니다.</p></li>
+        </ol>
+        <div class="process-note reveal">
+          <strong>장기요양등급이 아직 없으신가요?</strong>
+          <p>신청 과정과 준비 사항부터 먼저 안내받으실 수 있습니다.</p>
+          <a href="#contact">등급 상담 안내</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section care" id="care" aria-labelledby="care-title">
+      <div class="container care-grid">
+        <div class="care-heading reveal">
+          <p class="eyebrow">OUR PROMISE</p>
+          <h2 id="care-title">한 번의 방문보다<br><em>이어지는 신뢰</em>를<br>생각합니다.</h2>
+          <p>좋은 돌봄은 작은 변화를 놓치지 않고, 어르신·보호자·돌봄 종사자가 꾸준히 소통할 때 완성됩니다.</p>
+        </div>
+        <div class="care-values">
+          <article class="reveal"><span>01</span><h3>먼저 듣습니다</h3><p>어르신이 원하는 방식과 보호자의 걱정을 충분히 듣습니다.</p></article>
+          <article class="reveal"><span>02</span><h3>세심하게 맞춥니다</h3><p>몸 상태와 생활 습관에 맞춰 돌봄의 속도와 방법을 조율합니다.</p></article>
+          <article class="reveal"><span>03</span><h3>꼼꼼하게 기록합니다</h3><p>방문 중 확인한 변화와 돌봄 내용을 빠뜨리지 않고 살핍니다.</p></article>
+          <article class="reveal"><span>04</span><h3>가족과 연결합니다</h3><p>보호자가 안심할 수 있도록 필요한 내용을 투명하게 공유합니다.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide" id="guide" aria-labelledby="guide-title">
+      <div class="container">
+        <div class="section-top reveal">
+          <div>
+            <p class="eyebrow">CARE GUIDE</p>
+            <h2 id="guide-title">알아두면 좋은 돌봄 안내</h2>
+          </div>
+          <p>처음 재가서비스를 알아보는 가족들이<br>자주 궁금해하는 내용을 정리했습니다.</p>
+        </div>
+        <div class="guide-list reveal">
+          <details>
+            <summary><span>01</span><strong>장기요양등급은 어떻게 신청하나요?</strong><i></i></summary>
+            <div><p>국민건강보험공단에 장기요양인정 신청을 한 뒤 방문조사와 등급판정 절차를 거칩니다. 어르신의 현재 건강 상태와 일상생활의 어려움을 구체적으로 정리해 두면 상담에 도움이 됩니다.</p></div>
+          </details>
+          <details>
+            <summary><span>02</span><strong>방문요양에서는 어떤 도움을 받을 수 있나요?</strong><i></i></summary>
+            <div><p>신체활동, 식사와 주변 정돈 같은 일상생활, 외출 동행, 인지·정서 활동 등을 장기요양 이용계획과 어르신의 상태에 맞춰 제공합니다.</p></div>
+          </details>
+          <details>
+            <summary><span>03</span><strong>상담 전에 무엇을 준비하면 좋을까요?</strong><i></i></summary>
+            <div><p>장기요양인정서와 개인별 장기요양이용계획서가 있다면 준비해 주세요. 현재 불편한 점, 희망 시간, 가족의 돌봄 상황도 함께 알려주시면 보다 구체적으로 안내할 수 있습니다.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-leaf leaf-one" aria-hidden="true"></div>
+      <div class="contact-leaf leaf-two" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <p class="eyebrow reveal">CONTACT US</p>
+        <h2 id="contact-title" class="reveal">돌봄이 필요하다고 느낀 순간,<br>편안하게 이야기해 주세요.</h2>
+        <p class="reveal">어떤 서비스를 이용해야 할지 몰라도 괜찮습니다.<br>현재 상황부터 차근차근 함께 살펴보겠습니다.</p>
+        <div class="contact-card reveal">
+          <div><small>대표전화</small><strong>연락처 등록 예정</strong></div>
+          <div><small>상담시간</small><strong>운영시간 등록 예정</strong></div>
+          <a href="#contact" aria-disabled="true">상담 정보 확인</a>
+        </div>
+        <p class="contact-notice">※ 실제 전화번호·주소·운영시간 확인 후 바로 연결되도록 교체할 영역입니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-full.png" alt="생기재가복지센터">
+        <p>어르신의 익숙한 일상에 생기를 더합니다.</p>
+      </div>
+      <div class="footer-info">
+        <p><span>기관명</span>생기재가복지센터</p>
+        <p><span>주소</span>센터 주소 등록 예정</p>
+        <p><span>대표전화</span>연락처 등록 예정</p>
+        <p><span>기관번호</span>장기요양기관번호 등록 예정</p>
+      </div>
+      <div class="footer-links"><a href="#top">맨 위로</a><a href="#contact">상담안내</a></div>
+    </div>
+    <div class="container copyright">© 생기재가복지센터. All rights reserved.</div>
+  </footer>
+
+  <div class="floating-actions" aria-label="빠른 기능">
+    <a href="#contact" class="floating-consult"><span>상담</span></a>
+    <a href="#top" class="floating-top" aria-label="맨 위로"><span></span></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
